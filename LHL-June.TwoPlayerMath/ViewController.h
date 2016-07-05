@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSMutableString *inputString;
+
+@property (weak, nonatomic) IBOutlet UILabel *player1ScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *player2ScoreLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+
 
 @end
 

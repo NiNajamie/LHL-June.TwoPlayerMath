@@ -13,6 +13,8 @@
 		9605A1981D2B2A1A00DFF0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9605A1961D2B2A1A00DFF0C6 /* Main.storyboard */; };
 		9605A19A1D2B2A1A00DFF0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9605A1991D2B2A1A00DFF0C6 /* Assets.xcassets */; };
 		9605A19D1D2B2A1A00DFF0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9605A19B1D2B2A1A00DFF0C6 /* LaunchScreen.storyboard */; };
+		9605A1A61D2B2F9700DFF0C6 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9605A1A51D2B2F9700DFF0C6 /* Player.m */; };
+		9605A1A91D2B329500DFF0C6 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9605A1A81D2B329500DFF0C6 /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9605A1991D2B2A1A00DFF0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9605A19C1D2B2A1A00DFF0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9605A19E1D2B2A1A00DFF0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9605A1A41D2B2F9700DFF0C6 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9605A1A51D2B2F9700DFF0C6 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		9605A1A71D2B329500DFF0C6 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		9605A1A81D2B329500DFF0C6 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9605A1911D2B2A1A00DFF0C6 /* AppDelegate.m */,
 				9605A1931D2B2A1A00DFF0C6 /* ViewController.h */,
 				9605A1941D2B2A1A00DFF0C6 /* ViewController.m */,
+				9605A1A71D2B329500DFF0C6 /* GameController.h */,
+				9605A1A81D2B329500DFF0C6 /* GameController.m */,
+				9605A1A41D2B2F9700DFF0C6 /* Player.h */,
+				9605A1A51D2B2F9700DFF0C6 /* Player.m */,
 				9605A1961D2B2A1A00DFF0C6 /* Main.storyboard */,
 				9605A1991D2B2A1A00DFF0C6 /* Assets.xcassets */,
 				9605A19B1D2B2A1A00DFF0C6 /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9605A1A61D2B2F9700DFF0C6 /* Player.m in Sources */,
 				9605A1951D2B2A1A00DFF0C6 /* ViewController.m in Sources */,
 				9605A1921D2B2A1A00DFF0C6 /* AppDelegate.m in Sources */,
+				9605A1A91D2B329500DFF0C6 /* GameController.m in Sources */,
 				9605A18F1D2B2A1A00DFF0C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
