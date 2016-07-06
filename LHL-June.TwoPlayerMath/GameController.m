@@ -25,14 +25,17 @@
         _number2 = arc4random_uniform(20) + 1;
         _sum = self.number1 + self.number2;
         
+        
     }
     return self;
 }
 
 - (void) switchPlayer {
     
+    // get randomized number 1 and 2
     self.number1 = arc4random_uniform(20) + 1;
     self.number2 = arc4random_uniform(20) + 1;
+    self.sum = self.number1 + self.number2;
 
     if (self.currentPlayer == self.player1) {
         self.currentPlayer = self.player2;

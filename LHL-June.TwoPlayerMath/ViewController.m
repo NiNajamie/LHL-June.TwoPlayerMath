@@ -37,7 +37,7 @@
 - (IBAction)checkSumPressed:(UIButton *)sender {
     
     if ([self.inputString intValue] == self.gameController.sum) {
-        NSLog(@"SUM--%d", self.gameController.sum);
+        NSLog(@"Sum:%d, InputString:%d", self.gameController.sum, [self.inputString intValue]);
         [self.gameController switchPlayer];
         
         
@@ -52,13 +52,11 @@
         
         [self.gameController switchPlayer];
     }
+    
     // Resetting userInput for starting randomize number
     self.inputString = [[NSString stringWithFormat:@""] mutableCopy];
-    
 
-    NSLog(@"inputString--%@, sum-- %i", self.inputString, self.gameController.sum);
     self.questionLabel.text = [NSString stringWithFormat:@"%@: %i + %i =__", self.gameController.currentPlayer.name, self.gameController.number1, self.gameController.number2];
-
 }
 
 
